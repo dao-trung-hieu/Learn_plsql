@@ -5,7 +5,7 @@ Objectives: understand
 
 | Any Questions      | Any Data | Any Time     |
 | :---        |    :----:   |          ---: |
-| Casual U      | Title       | Here's this   |
+|-  Casual Users Require     | - Title       | - Here's this   |
 | Paragraph   | Text        | And more      |
 
 2. Introducing Oracle Analytics Cloud
