@@ -5,14 +5,14 @@ Objectives: understand
 - What does it take to unlock business Agility
 ```
 Any questions: 
-- Casual users require guidance to discover the right questions
+- Casual users require 'guidance' to discover the right questions
 - Analysts Require 'Richness' of Functionality to Solve the Hard Questions
 ```
 
 ```
 Any Data
-- Repeated Analysis Benefits from Access to Managed Data
-- Agile Analysis Demands Data Mashup against User Data
+- Repeated Analysis Benefits from Access to 'Managed Data'
+- Agile Analysis Demands Data Mashup against 'User Data'
 ```
 
 ```
