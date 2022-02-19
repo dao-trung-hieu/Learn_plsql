@@ -12,13 +12,14 @@
 2.DQL (Data Query Language):    
     - SELECT 
     
-3.DML(Data Manipulation Language):     
-         - INSERT : It is used to insert data into a table.
-         - UPDATE: It is used to update existing data within a table.
-          - DELETE : It is used to delete records from a database table.
-        - LOCK: Table control concurrency.
-        - CALL: Call a PL/SQL or JAVA subprogram.
-        - EXPLAIN PLAN: It describes the access path to data.
+3.DML(Data Manipulation Language):   
+
+       - INSERT : It is used to insert data into a table.
+       - UPDATE: It is used to update existing data within a table.
+       - DELETE : It is used to delete records from a database table.
+       - LOCK: Table control concurrency.
+       - CALL: Call a PL/SQL or JAVA subprogram.
+       - EXPLAIN PLAN: It describes the access path to data.
     
 4.DCL (Data Control Language): 
 
