@@ -1,5 +1,4 @@
-59 / 5.000
-Kết quả dịch
+
 -------------- PL/SQL BASIC COMMANDS ---------------------
 
 /* Exercises 1: Use the IF-ELSE loop to perform the following request: Check the customer's account balance with ID = 1.
