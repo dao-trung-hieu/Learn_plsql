@@ -46,10 +46,10 @@ VALUES (1, '123 Hanoi', 'Hanoi', D, 095-55-1234, 022475, 'HN');
 ROLLBACK;
 
 /*Exercises 2:
-+ Add 1 new write to the table ‘HOCVIEN_CUSTOMER’ after that use SAVEPOINT + Name_saveponint
-+ Xóa bản ghi trước đó (bản ghi có ID sau bản ghi vừa thêm)
-+ Sử dụng lệnh ROLLBACK TO Name_saveponint
-+ Tiếp tục sử dụng COMMIT*/
++ Add 1 new record to the table 'HOCVIEN_CUSTOMER' then use SAVEPOINT + Name_saveponint
++ Delete previous record (record with ID after newly added record)
++ Use the command ROLLBACK TO Name_saveponint
++ Continue using COMMIT*/
 
 -- Insert rows in a Table
 
@@ -59,5 +59,17 @@ SAVEPOINT HIEU_SAVEPOINT;
 
 DELETE FROM HIEU_CUSTOMER WHERE CUST_ID = 1;
 ROLLBACK TO HIEU_SAVEPOINT;
+COMMIT;
+
+/* Exercises 3:
++ Add 1 new record to the table 'HOCVIEN_CUSTOMER'
++ Add 1 new record to the table 'HOCVIEN_CUSTOMER' (Attempted to write wrong structure)
++ Use COMMIT */
+
+SELECT * FROM HIEU_CUSTOMER;
+INSERT INTO HIEU_CUSTOMER (CUST_ID, ADDREES, CITY, CUST_TYPE_ID, FED_ID, POSTAL_CODE, STATE)
+VALUES (1, '123 Hanoi', 'Hanoi', D, 095-55-1234, 022475, 'HN');
+INSERT INTO HIEU_CUSTOMER (CUST_ID, ADDREES, CITY, CUST_TYPE_ID, FED_ID, POSTAL_CODE, STATE)
+VALUES (1, '123 Hanoi', 'Hanoi', D, 095-55-1234, 022475, 'HN');
 COMMIT;
 
