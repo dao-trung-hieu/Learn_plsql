@@ -73,3 +73,10 @@ INSERT INTO HIEU_CUSTOMER (CUST_ID, ADDREES, CITY, CUST_TYPE_ID, FED_ID, POSTAL_
 VALUES (1, '123 Hanoi', 'Hanoi', D, 095-55-1234, 022475, 'HN');
 COMMIT;
 
+/*
+Bài 1:
+Nhận xét: Khi insert và sử dụng commit, dữ liệu sẽ được lưu vào hệ thống, Khi insert và sử dụng rollback, dữ liệu sẽ không được lưu vào hệ thống
+Bài 2:
+Nhận xét: … Khi commit Oracle sẽ xác nhận toàn bộ những thay đổi trong transaction cho tới thời điểm commit
+Bài 3: Nếu trong quá trình thực hiện transaction, có 1 câu lệnh bị lỗi, chỉ câu lệnh đó bị rollback, những thay đổi khác vẫn còn nguyên, Oracle mặc định savepoint. */
+
