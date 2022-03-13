@@ -34,8 +34,9 @@ BEGIN
 END;
 /
 
-/* Exercises 3: /* use for loop to get information: amount of 10 days from 25-01-2004 from Acc_transaction table
+/* Exercises 3:  use for loop to get information: amount of 10 days from 25-01-2004 from Acc_transaction table
 Display the screen with the command: dbms_output.put_line() */
+
 SET SERVEROUTPUT ON
 DECLARE
     v_start_date DATE := TO_DATE('25-01-2004', 'DD-MM-YYYY');
