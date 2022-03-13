@@ -5,6 +5,7 @@
 If the account balance is > $1000, print the message "Your current balance is currently greater than $1000",
 otherwise print the message "Your current balance does not reach $1000" (ACCOUNT table).
 Display the screen with the command: dbms_output.put_line() */
+
 SET SERVEROUTPUT ON
 DECLARE
   v_total_balance NUMBER;
